@@ -1,5 +1,5 @@
-import { projectAuth } from "../../../../fashion-designer-blog/fashion-designer-blog/src/firebase/config";
-import { ref } from 'vue/dist/vue'
+import { projectAuth } from "../firebase/config";
+import { ref } from 'vue'
 
 // refs
 const user = ref(projectAuth.currentUser)

@@ -13,7 +13,6 @@
 <script>
     import { ref } from 'vue'
     import useSignup from '../../composables/useSignup'
-    import router from "../../router";
     import { useRouter } from 'vue-router'
 
     export default {
