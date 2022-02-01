@@ -4,7 +4,7 @@
 // return a  single array of tags based on the set
 
 
-import { ref }  from 'vue/dist/vue'
+import { ref }  from 'vue'
 
 const useTags = (posts) => {
     const tags = ref([])

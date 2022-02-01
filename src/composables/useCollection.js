@@ -1,5 +1,5 @@
-import {ref } from 'vue/dist/vue'
-import { projectFirestore } from "../../../../fashion-designer-blog/fashion-designer-blog/src/firebase/config";
+import {ref } from 'vue'
+import { projectFirestore } from "../firebase/config";
 
 // declare the connection & refs inside the function
 // because the collection state is not global (like a user)

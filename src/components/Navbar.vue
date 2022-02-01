@@ -7,8 +7,8 @@
             <div class="links">
                 <div  v-if="user">
                     <router-link :to="{ name: 'Home' }">Home</router-link>
-<!--                    <router-link :to="{ name: 'Create' }">Create Post</router-link>-->
-<!--                    <span>Hi here, {{ user.displayName }}</span>-->
+                    <router-link :to="{ name: 'Create' }">Create Post</router-link>
+                    <span>Hi here, {{ user.displayName }}</span>
                     <button @click="handleClick">Logout</button>
                 </div>
                 <div v-else>

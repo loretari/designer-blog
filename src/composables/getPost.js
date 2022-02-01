@@ -1,5 +1,5 @@
-import { ref } from 'vue/dist/vue'
-import { projectFirestore } from '../../../../fashion-designer-blog/fashion-designer-blog/src/firebase/config'
+import { ref } from 'vue'
+import { projectFirestore } from '../firebase/config'
 import useCollection from "./useCollection";
 
 const getPost = (id) => {
